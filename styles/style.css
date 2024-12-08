@@ -1,7 +1,7 @@
 main {
   display: flex;
   flex-direction: column;
-  gap: 180px;
+  gap: 183px;
 }
 
 .content-section {
@@ -11,17 +11,23 @@ main {
 
 .header {
   display: grid;
-  grid-template-columns: 1.51fr 1.2fr 1.5fr;
+  grid-template-columns: 1.51fr 2fr 1.5fr;
   align-items: center;
-  padding: 91px 52px 91px;
+  padding: 92px 51px 89px;
 }
 
 .header__links-list {
   display: flex;
-  gap: 30px;
+  gap: 32px;
 }
 
+.header__links-list-item {
+  list-style: circle;
+}
 
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
 
 .header__link {
   font-size: 18px;
@@ -33,12 +39,15 @@ main {
   color: #FFF;
 }
 
-
+.header__link_active {
+  text-decoration: none;
+}
 
 .header__logo {
   display: block;
   justify-self: center;
-  width: 148px;
+  align-self: center;
+  width: 140px;
 }
 
 .header__logo-image {
@@ -57,19 +66,20 @@ main {
 .address__item {
   display: block;
   font-size: 18px;
-  line-height: 24.3px;
+  line-height: 1.35;
   text-underline-position: under;
 }
 
 .address__address-text {
   font-size: 18px;
-  line-height: 24.3px;
+  line-height: 1.35;
 }
 
 .cover {
   position: relative;
   padding: 165px 50px 50px 50px;
   background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -91,9 +101,9 @@ main {
   flex-direction: column;
   gap: 20px;
   color: #FFF;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 100px;
-  line-height: 115px;
+  line-height: 1.15;
   letter-spacing: 30px;
   text-transform: uppercase;
 }
@@ -113,9 +123,10 @@ main {
 }
 
 .letter-spacing-extended {
-  letter-spacing: 60%;
+  letter-spacing: 60px;
 }
 
+/* Убирает ненужный отступ в конце слова, создаваемый свойством letter-spacing всего элемента */
 
 .remove-spacing {
   letter-spacing: normal;
@@ -134,7 +145,7 @@ main {
 .cover__description-text {
   color: #FFF;
   font-size: 22px;
-  line-height: 28px;
+  line-height: 1.27;
   text-transform: uppercase;
   word-spacing: 18px;
 }
