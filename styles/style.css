@@ -13,7 +13,7 @@ main {
   display: grid;
   grid-template-columns: 1.51fr 2fr 1.5fr;
   align-items: center;
-  padding: 92px 51px 89px;
+  padding: 95px 51px 89px;
 }
 
 .header__links-list {
@@ -47,11 +47,8 @@ main {
   display: block;
   justify-self: center;
 
-  width: 148px;
-  margin-right: 36px;
-
-  align-self: center;
   width: 140px;
+  margin-right: 125px;
 }
 
 .header__logo-image {
