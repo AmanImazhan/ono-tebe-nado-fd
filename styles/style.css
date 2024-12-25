@@ -39,6 +39,7 @@ main {
   display: block;
   justify-self: center;
   width: 148px;
+  margin-right: 36px;
 }
 
 .header__logo-image {
@@ -113,7 +114,7 @@ main {
 }
 
 .letter-spacing-extended {
-  letter-spacing: 60%;
+  letter-spacing: 60px;
 }
 
 
@@ -158,11 +159,11 @@ main {
 }
 
 .lots {
-  padding: 0 50px;
+  padding: 0 20px;
 }
 
 .lots__heading {
-  padding: 0 0 30px 40px;
+  padding: 0 0 30px 45px;
   font-weight: bold;
   font-size: 40px;
   line-height: 1;
@@ -190,7 +191,6 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 30px;
   width: auto;
   height: 100%;
   padding: 50px 40px;
@@ -220,7 +220,6 @@ main {
   color: #FFF;
   font-weight: bold;
   font-size: 22px;
-  line-height: 1.2;
   text-decoration-line: underline;
   text-transform: uppercase;
 }
@@ -235,7 +234,7 @@ main {
 
 .lots__look-more-link {
   display: block;
-  margin: 30px 0 0 40px;
+  margin: 30px 0 0 45px;
   font-size: 20px;
   text-decoration-line: underline;
   text-underline-position: under;
@@ -246,7 +245,7 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 24px;
-  padding: 0 50px;
+  padding: 0 25px;
 }
 
 .about__column {
@@ -272,7 +271,7 @@ main {
 }
 
 .about__title {
-  padding: 100px 0 104px;
+  padding: 100px 0 110px;
   font-weight: bold;
   font-size: 40px;
   line-height: 1;
@@ -293,7 +292,7 @@ main {
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 180px 50px 80px;
+  padding: 186px 50px 80px;
 }
 
 .footer__social-icon {
